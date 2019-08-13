@@ -1,0 +1,683 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* next block */
+
+
+.header {
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 5px black;
+    background: linear-gradient(45deg, #35637c, #0cbdad);
+}
+
+.header-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.header-links-left {
+    margin-top: 5px;
+}
+
+.header-links-right {
+    margin-top: -10px;
+}
+
+.header-links a {
+    margin-right: 30px;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.header-links a:hover {
+    color: #0ed6c4;
+    transition: all 0.2s;
+}
+
+.header-logo {
+    width: 120px;
+}
+
+.header .menu-icon {
+    display: none;
+}
+
+
+
+/* next block */
+
+
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main-try-installation {
+    background: #eff4f4;
+    padding: 180px 0 70px 0;
+}
+
+.try-installation-text {
+    text-align: left;
+}
+
+.caption {
+    font-size: 36px;
+    font-weight: bold;
+    color: #393e6b;
+    letter-spacing: 2px;
+}
+
+.caption-first {
+    margin-bottom: 45px;
+}
+
+.gray-paragraph {
+    font-size: 16px;
+    color: #74757b;
+    line-height: 25px;
+}
+
+.mw-600 {
+    max-width: 600px;
+}
+
+.try-installation-btns {
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    width: 260px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 20px;
+    padding: 17px;
+    letter-spacing: 1px;
+}
+
+.btn-turquoise {
+    margin-top: 60px;
+    background: #2cd3b8;
+    color: #fff;
+    border: 1px solid #2cd3b8;
+}
+
+.btn-transparent {
+    color: #393e6b;
+    border: 1px solid #393e6b;
+}
+
+.btn-turquoise:hover {
+    background: #fff;
+    color: #2cd3b8;
+    transition: all 0.3s;
+    border: 1px solid #2cd3b8;
+}
+
+.btn-transparent:hover {
+    background: #393e6b;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.3s;
+}
+
+/* next block */
+
+
+.main-easy-install {
+    background: #fff;
+    padding: 75px 0 20px 0;
+}
+
+.caption-second {
+    margin-bottom: 30px;
+}
+
+.big-digit {
+    font-size: 150px;
+    color: #e8e8ec;
+    font-weight: bold;
+    margin: 70px 0 0 -50px;
+}
+
+.easy-install-links a {
+    color: #2cd3b8;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.easy-install-links {
+    display: flex;
+}
+
+.easy-install-link-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+.easy-install-link-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon50 {
+    background: url('../img/sprite50.png') no-repeat top left;
+    width: 50px;
+    height: 50px;
+}
+
+.icon01 {
+    background-position: 0 0;
+    position: relative;
+    top: -115px;
+}
+.icon02 {
+    background-position: -51px 0;
+    position: relative;
+    top: -115px;
+}
+
+/* next block */
+
+
+.main-install-html {
+    background: #eff4f4;
+    padding: 85px 0 40px 0;
+}
+
+.caption-third {
+    margin-bottom: 80px;
+}
+
+.install-list a {
+    color: #0da088;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.main-install-html p {
+    margin: 20px 0 50px 0;
+}
+
+
+/* next block */
+
+
+
+.main-install-dashboard {
+    padding: 85px 0 30px 0;
+}
+
+.caption-fourth {
+    margin-bottom: 40px;
+}
+
+.with-margin {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.main-install-dashboard p {
+    margin: 20px 0 50px 0;
+}
+
+.mw-750 {
+    max-width: 750px;
+}
+
+
+/* next block */
+
+
+.main-what-you-get {
+    background: #eff4f4;
+    padding: 70px 0;
+}
+
+.caption-fifth {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.icon75 {
+    background: url('../img/sprite75.png') no-repeat top left;
+    width: 75px;
+    height: 75px;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    color: #393e6b;
+    text-align: left;
+}
+
+.step_01 {
+    background-position: -152px -152px;
+}
+.step_02 {
+    background-position: -228px 0;
+}
+.step_03 {
+    background-position: -228px -76px;
+}
+.step_04 {
+    background-position: -228px -152px;
+}
+.step_05 {
+    background-position: 0 -228px;
+}
+.step_06 {
+    background-position: -76px -228px;
+}
+
+.step-number {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.step-text {
+    font-size: 18px;
+    padding: 23px 0;
+    margin-left: 40px;
+}
+
+.steps-btns {
+    width: 100%;
+}
+
+.btn-blue {
+    margin-top: 60px;
+    background: #393e6b;
+    color: #fff;
+    border: 1px solid #393e6b;
+}
+
+.btn-blue:hover {
+    background: #fff;
+    color: #393e6b;
+    transition: all 0.3s;
+    border: 1px solid #393e6b;
+}
+
+
+
+
+/* next block */
+
+
+
+
+.main-more {
+    padding: 70px 0;
+}
+
+.icon40 {
+    background: url('../img/sprite40.png') no-repeat top left;
+    width: 40px;
+    height: 40px;
+}
+
+.app {
+    background-position: 0 -41px;
+}
+.chatbots {
+    background-position: -41px -41px;
+}
+.email {
+    background-position: -82px 0;
+}
+.feedback {
+    background-position: -82px -41px;
+}
+.msn {
+    background-position: 0 -82px;
+}
+.sn {
+    background-position: -41px -82px;
+}
+.yad {
+    background-position: -82px -123px;
+}
+
+.more-elements {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 75px;
+}
+
+.more-elem {
+    display: flex;
+    flex-direction: row;
+    margin: 0 135px 45px 0;
+}
+
+.more-link {
+    color: #2cd3b8;
+    text-decoration: underline;
+    font-size: 18px;
+    margin: 7px 0 0 30px;
+}
+
+
+.footer {
+    background: #393e6b;
+    color: #adb0c2;
+    padding: 20px 0 55px 0;
+}
+
+.footer .wrapper {
+    width: 90%;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.footer p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.footer-contacts {
+    float: right;
+    margin-top: -60px;
+}
+
+.email {
+    color: #fff;
+}
+
+.social {
+    margin-top: 10px;
+}
+
+.social a {
+    color: #adb0c2;
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.social a:hover {
+    color: #fff;
+    transition: all 0.3s;
+}
+
+
+
+/* next block */
+
+
+
+
+.animated {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1; 
+    transition: all 0.4s;
+}
+
+
+
+
+
+/* next block */
+
+
+
+
+
+
+
+@media all and (max-width: 1550px) {
+    .more-elements {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .more-elements {
+        grid-template-columns: auto;
+    }
+}
+
+
+@media all and (max-width: 1000px) {
+    .wrapper {
+        width: 80%;
+    }
+
+    .btn-transparent, .btn-blue {
+        margin-top: 15px;
+    }
+
+    .header-links a {
+        display: none;
+    }
+
+    .header-links a.menu-icon {
+        display: block;
+        color: #fff;
+        font-size: 25px;
+        margin-top: -13px;
+    }
+
+    .header-links.responsive {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header .header-links.responsive {
+        height: 270px;
+    }
+
+    .header-links.responsive a.menu-icon {
+        position: absolute;
+        left: 0px;
+        top: 35px;
+    }
+
+    .header-links.responsive .header-logo {
+        position: absolute;
+        right: 0px;
+        top: 20px;
+    }
+
+    .header-links.responsive a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header-links.responsive .header-links-left {
+        margin-top: 0px;
+    }
+    
+    .header-links.responsive .header-links-right {
+        margin-top: 0px;
+    }
+    
+    .header-links.responsive .header-links a {
+        margin-right: 0px;
+    }
+
+    .step-text {
+        margin-left: 20px;
+    }
+
+}
+
+@media all and (max-width: 800px) {
+    .main-try-installation {
+        text-align: center;
+    }
+
+    .icon75 {
+        background: url('../img/sprite50.png') no-repeat top left;
+        width: 50px;
+        height: 50px;
+    }
+
+    .step_01 {
+        background-position: -102px -102px;
+    }
+    .step_02 {
+        background-position: -153px 0;
+    }
+    .step_03 {
+        background-position: -153px -51px;
+    }
+    .step_04 {
+        background-position: -153px -102px;
+    }
+    .step_05 {
+        background-position: 0 -153px;
+    }
+    .step_06 {
+        background-position: -51px -153px;
+    }
+
+    .step-text {
+        padding: 12px 0;
+    }
+
+    .main-what-you-get {
+        text-align: center;
+    }
+
+
+}
+
+@media all and (max-width: 600px) {
+
+    .caption {
+        font-size: 24px;
+    }
+
+    .gray-paragraph {
+        font-size: 13px;
+    }
+
+    .btn {
+        margin-right: 0;
+    }
+
+    .easy-install-links a {
+        font-size: 13px;
+    }
+
+    .easy-install-link-left {
+        margin-right: 80px;
+    }
+
+    .big-digit {
+        font-size: 95px;
+        margin: 70px 0 0 -29px;
+    }
+
+    .icon01 {
+        top: -95px;
+    }
+    .icon02 {
+        top: -95px;
+    }
+
+    .install-list a {
+        font-size: 15px;
+    }
+
+    .step-number {
+        font-size: 12px;
+    }
+    
+    .step-text {
+        font-size: 12px;
+        padding: 18px 0;
+    }
+
+    .more-elem {
+        margin: 0 20px 25px 0;
+    }
+
+    .more-link {
+        font-size: 12px;
+        margin: 12px 0 0 30px;
+    }
+
+    .footer-contacts {
+        display: none;
+    }
+    
+    .social {
+        display: none;
+    }
+
+    .footer .wrapper {
+        width: 60%;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+}
+
+@media all and (max-width: 370px) {
+    .btn {
+        display: inline-block;
+        width: 230px;
+        font-size: 12px;
+        padding: 13px;
+    }
+
+
+    .caption {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .main-what-you-get .wrapper {
+        width: 90%;
+    }
+
+    .step-text {
+        margin-left: 10px;
+    }
+
+
+}
+
+@media all and (max-width: 361px) {
+    .icon02 {
+        top: -108px;
+    }
+}
